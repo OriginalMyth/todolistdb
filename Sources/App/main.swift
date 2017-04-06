@@ -45,6 +45,12 @@ let postgreSQL = PostgreSQL.Database(
     
 )
 
+drop.get("") { request in
+    
+    return "hello"
+    
+}
+
 
 
 drop.get("tasks", "all") { request in
